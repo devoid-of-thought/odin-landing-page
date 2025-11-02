@@ -206,3 +206,11 @@ ul {
     cursor: pointer;
     font-weight: bold;
 }
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #E5E7Eb;
+    height: 100px;
+}
