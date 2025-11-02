@@ -91,13 +91,15 @@ ul {
     align-items: center;
     justify-content: center;
     gap : 40px;
+    margin: 32px 0px;
 }
 .container-two-title{
       font-size: 36px;
   font-weight: 900;
   color: #1F2937;
   text-align: center;
-  margin-bottom: 32px;
+  margin: 32px 0px;
+
 }
 .container-two-item {
     display: flex;
@@ -124,4 +126,83 @@ ul {
         background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
+}
+.container-three {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 100px;
+    gap: 20px;
+    background-color: #F3F4F6;
+    height: 400px;
+}
+.container-three .container-in-container-three{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: center;
+    max-width: 750px;
+}
+.container-three .quote {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    max-width: 750px;
+    align-self: center;
+    font-weight: 300;
+}
+.container-three .author {
+    display: flex;
+    font-size: 24px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+    max-width: 750px;
+}
+
+.container-four {
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-four .container-in-container-four{
+    background-color: #3882F6;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+.container-in-container-in-container-four{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: left;
+    justify-content: center;
+
+}
+.container-in-container-in-container-four h2 {
+    margin: 0;
+    padding: 0;
+}
+.container-in-container-in-container-four p{
+    margin: 0;
+    padding: 0;
+}
+.container-in-container-four button{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: bold;
 }
