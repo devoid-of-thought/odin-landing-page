@@ -1,32 +1,38 @@
-body{
+body {
     margin: 0;
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
 }
-.header, .footer{
+
+.header,
+.footer {
     background-color: #1f2937;
     text-align: center;
     display: flex;
     justify-content: space-around;
 
 }
-.header{
+
+.header {
     padding: 20px;
 
 }
-.header-logo{
+
+.header-logo {
     font-size: 24px;
     color: #F9FAf8;
 }
-ul{
+
+ul {
     list-style: none;
     display: flex;
     gap: 15px;
     font-size: 18px;
     color: #E5E7Eb;
 }
-.container-one{
+
+.container-one {
     display: flex;
     flex-direction: row;
     background-color: #1f2937;
@@ -35,41 +41,87 @@ ul{
     justify-content: center;
     align-items: center;
 }
-.container-one-item{
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-max-width: 400px;
-max-height: 300px;
-gap: 5px;
+
+.container-one-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 400px;
+    max-height: 300px;
+    gap: 5px;
 }
-.container-one-item h1{
+
+.container-one-item h1 {
     font-size: 48px;
     color: #F9FAf8;
     font-weight: 900;
     margin: 0;
     padding: 0;
 }
-.container-one-item p{
+
+.container-one-item p {
     font-size: 18px;
     color: #E5E7Eb;
     margin: 0;
     padding: 0;
 }
+
 .container-one img {
     height: 250px;
     width: 500px;
 }
-.container-one button{
+
+.container-one button {
     align-items: center;
     background-color: #3882F6;
     width: 100px;
-    height:40px;
+    height: 40px;
     border-radius: 10px;
-    color : white;
+    color: white;
     font-weight: bold;
 }
-.subtext{
-flex-wrap: wrap;
-    
+
+.subtext {
+    flex-wrap: wrap;
+
+}
+.container-two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap : 40px;
+}
+.container-two-title{
+      font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.container-two-item {
+    display: flex;
+    flex-basis: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-two-item-text {
+    font-size: 18px;
+    color: gray;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.border-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border: 5px solid #3882F6;
+    background-image: url("./images/Untitled.png");
+        background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
 }
